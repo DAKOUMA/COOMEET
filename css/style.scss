@@ -1,0 +1,80 @@
+@font-face {
+    font-family: "Praktika";
+    src: url(../image/Praktika.otf);
+}
+
+*{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: "Praktika";
+}
+
+header{
+    position: sticky;
+}
+
+section{
+    margin-top: 100px;
+    border-bottom: 1px solid black;
+    padding-bottom: 40px;
+}
+
+.preview{
+    text-align: center;
+    height: 500px;
+    h1{
+        font-size: 50px;
+    }
+}
+
+p{
+    font-size: 20px;
+}
+
+.preview_image{
+    display: inline-block;
+    transition: transform 300ms;
+    transform: scale(1);
+    &:hover{
+        cursor: pointer;
+        transition: transform 200ms;
+        transform: scale(1.02);
+    }
+}
+
+footer{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: center;
+    border: 1px solid black;
+    padding: 3px;
+    font-size: 20px;
+}
+
+.girl{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h2{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: rgb(151, 149, 149);
+}
+
+caption{
+    font-weight: 600;
+    margin-bottom: 5px;
+}
