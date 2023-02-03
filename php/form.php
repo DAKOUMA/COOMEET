@@ -8,7 +8,7 @@
 </head>
 <body>
         <?php
-            echo $_POST;
+            echo $_POST["prenom"];
         ?>
 </body>
 </html>
